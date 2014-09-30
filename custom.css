@@ -10,10 +10,13 @@ which means that your rules can take precedence and override the theme CSS
 rules. Just write here what you want to change, you don't need to copy all
 your theme's stylesheet content.
 */
+
+/*to remove social media hover */ 
 .s2:hover {
 	z-index: 98;
-}
+} /*this code did not work :( */
 
+/*centers BTD logo */
 .site-title,
 .site-title a,
 .site-title a img {
